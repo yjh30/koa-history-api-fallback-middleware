@@ -30,4 +30,5 @@ app.use(require('koa-static')(path.resolve(process.cwd(), './public')))
 ```
 
 ## more
-see [connect-history-api-fallback](https://www.npmjs.com/package/connect-history-api-fallback)
+- see [connect-history-api-fallback](https://www.npmjs.com/package/connect-history-api-fallback) know more about
+- this module don't suport options.index config
