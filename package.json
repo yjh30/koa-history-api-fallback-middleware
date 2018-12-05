@@ -6,6 +6,11 @@
   "scripts": {
     "changelog": "node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:yjh30/koa-history-api-fallback-middleware.git"
@@ -23,6 +28,7 @@
   },
   "homepage": "https://github.com/yjh30/koa-history-api-fallback-middleware#readme",
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.11"
+    "conventional-changelog-cli": "^2.0.11",
+    "cz-conventional-changelog": "^2.1.0"
   }
 }
